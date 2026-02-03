@@ -212,8 +212,8 @@ export default function Sidebar({ sections, slides, currentSlide, onSlideSelect,
           onClick={() => onSlideSelect(1)}
           className="text-left hover:opacity-80 transition-opacity w-full"
         >
-          <h1 className="text-2xl font-bold text-primary">My Presentation</h1>
-          <p className="text-sm text-primary/60 mt-1">A Beautiful Slide Deck</p>
+          <h1 className="text-2xl font-bold text-primary">TALINT Tracker</h1>
+          <p className="text-sm text-primary/60 mt-1">The Technology Policy Accelerator at the Hoover Institution</p>
         </button>
       </div>
 
@@ -269,12 +269,14 @@ export default function Sidebar({ sections, slides, currentSlide, onSlideSelect,
           Created by:
         </p>
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary font-semibold">
-            YN
-          </div>
+          <img
+            src="/headshot.jpeg"
+            alt="Emerson Victoria Johnston Headshot"
+            className="w-8 h-8 rounded-full object-cover"
+          />
           <div className="min-w-0 flex-1">
-            <p className="text-[14px] text-primary font-medium">Your Name</p>
-            <p className="text-[13px] text-primary/60">Your Title</p>
+            <p className="text-[14px] text-primary font-medium">Emerson Victoria Johnston</p>
+            <p className="text-[13px] text-primary/60">Junior Research Associate</p>
           </div>
         </div>
       </div>
