@@ -1,0 +1,102 @@
+{
+  "totalPages": 10,
+  "slides": [
+    {
+      "id": 1,
+      "thumbnail": "/slides/thumbnails/slide-0001.jpg",
+      "full": "/slides/full/slide-0001.jpg",
+      "highRes": "/slides/high-res/slide-0001.jpg"
+    },
+    {
+      "id": 2,
+      "thumbnail": "/slides/thumbnails/slide-0002.jpg",
+      "full": "/slides/full/slide-0002.jpg",
+      "highRes": "/slides/high-res/slide-0002.jpg"
+    },
+    {
+      "id": 3,
+      "thumbnail": "/slides/thumbnails/slide-0003.jpg",
+      "full": "/slides/full/slide-0003.jpg",
+      "highRes": "/slides/high-res/slide-0003.jpg"
+    },
+    {
+      "id": 4,
+      "thumbnail": "/slides/thumbnails/slide-0004.jpg",
+      "full": "/slides/full/slide-0004.jpg",
+      "highRes": "/slides/high-res/slide-0004.jpg"
+    },
+    {
+      "id": 5,
+      "thumbnail": "/slides/thumbnails/slide-0005.jpg",
+      "full": "/slides/full/slide-0005.jpg",
+      "highRes": "/slides/high-res/slide-0005.jpg"
+    },
+    {
+      "id": 6,
+      "thumbnail": "/slides/thumbnails/slide-0006.jpg",
+      "full": "/slides/full/slide-0006.jpg",
+      "highRes": "/slides/high-res/slide-0006.jpg"
+    },
+    {
+      "id": 7,
+      "thumbnail": "/slides/thumbnails/slide-0007.jpg",
+      "full": "/slides/full/slide-0007.jpg",
+      "highRes": "/slides/high-res/slide-0007.jpg"
+    },
+    {
+      "id": 8,
+      "thumbnail": "/slides/thumbnails/slide-0008.jpg",
+      "full": "/slides/full/slide-0008.jpg",
+      "highRes": "/slides/high-res/slide-0008.jpg"
+    },
+    {
+      "id": 9,
+      "thumbnail": "/slides/thumbnails/slide-0009.jpg",
+      "full": "/slides/full/slide-0009.jpg",
+      "highRes": "/slides/high-res/slide-0009.jpg"
+    },
+    {
+      "id": 10,
+      "thumbnail": "/slides/thumbnails/slide-0010.jpg",
+      "full": "/slides/full/slide-0010.jpg",
+      "highRes": "/slides/high-res/slide-0010.jpg"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Introduction",
+      "startSlide": 1,
+      "level": 0
+    },
+    {
+      "title": "Background",
+      "startSlide": 2,
+      "level": 1
+    },
+    {
+      "title": "Main Content",
+      "startSlide": 4,
+      "level": 0
+    },
+    {
+      "title": "Topic A",
+      "startSlide": 4,
+      "level": 1
+    },
+    {
+      "title": "Subtopic A1",
+      "startSlide": 5,
+      "level": 2
+    },
+    {
+      "title": "Topic B",
+      "startSlide": 7,
+      "level": 1
+    },
+    {
+      "title": "Conclusion",
+      "startSlide": 9,
+      "level": 0
+    }
+  ]
+}
