@@ -2,8 +2,8 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'TALINT Tracker',
-  description: 'The Hoover Institutions\'s Technology Policy Accelerator',
+  title: 'Tech Futures Play Book',
+  description: 'The Hoover Institution\'s Tech Futures Lab',
 }
 
 export default function RootLayout({

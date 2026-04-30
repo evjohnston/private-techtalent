@@ -70,7 +70,7 @@
     },
     {
       "title": "Background",
-      "startSlide": 2,
+      "startSlide": 3,
       "level": 1
     },
     {
@@ -80,12 +80,12 @@
     },
     {
       "title": "Topic A",
-      "startSlide": 4,
+      "startSlide": 5,
       "level": 1
     },
     {
       "title": "Subtopic A1",
-      "startSlide": 5,
+      "startSlide": 6,
       "level": 2
     },
     {

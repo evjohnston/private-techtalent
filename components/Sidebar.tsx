@@ -25,7 +25,6 @@ export default function Sidebar({ sections, slides, currentSlide, onSlideSelect,
     return collapsed
   })
 
-  // Auto-scroll to active item
   useEffect(() => {
     if (activeItemRef.current && scrollContainerRef.current) {
       const container = scrollContainerRef.current
@@ -91,7 +90,6 @@ export default function Sidebar({ sections, slides, currentSlide, onSlideSelect,
 
   const currentSection = getCurrentSection(currentSlide)
 
-  // Auto-expand parent sections of current slide
   useEffect(() => {
     if (!currentSection) return
 
@@ -206,14 +204,14 @@ export default function Sidebar({ sections, slides, currentSlide, onSlideSelect,
   const progress = ((currentSlide - 1) / (slides.length - 1)) * 100
 
   return (
-    <aside className="fixed left-0 top-0 h-full z-50 w-72 flex flex-col bg-accent">
+    <aside className="fixed left-0 top-0 h-full z-50 w-[max(20vw,220px)] flex flex-col bg-accent">
       <div className="px-3 pt-5 pb-2">
         <button
           onClick={() => onSlideSelect(1)}
           className="text-left hover:opacity-80 transition-opacity w-full"
         >
-          <h1 className="text-2xl font-bold text-primary">TALINT Tracker</h1>
-          <p className="text-sm text-primary/60 mt-1">The Technology Policy Accelerator at the Hoover Institution</p>
+          <h1 className="text-2xl font-bold text-primary">The Tech Futures Playbook</h1>
+          <p className="text-sm text-primary/60 mt-1">The Tech Futures Lab at the Hoover Institution</p>
         </button>
       </div>
 
@@ -266,17 +264,44 @@ export default function Sidebar({ sections, slides, currentSlide, onSlideSelect,
 
       <div className="px-3 py-4">
         <p className="text-[11px] text-primary/50 tracking-wider uppercase mb-2">
-          Created by:
+          Authors
         </p>
-        <div className="flex items-center gap-2">
-          <img
-            src="/headshot.jpeg"
-            alt="Emerson Victoria Johnston Headshot"
-            className="w-8 h-8 rounded-full object-cover"
-          />
-          <div className="min-w-0 flex-1">
-            <p className="text-[14px] text-primary font-medium">Emerson Victoria Johnston</p>
-            <p className="text-[13px] text-primary/60">Junior Research Associate</p>
+        <div className="flex flex-col gap-2">
+          <div className="flex items-center gap-2">
+            <a
+              href="https://www.hoover.org/profiles/maria-langan-riekhof"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-shrink-0 rounded-full ring-2 ring-transparent hover:ring-primary/40 transition-all"
+            >
+              <img
+                src="/headshot_maria.jpeg"
+                alt="Maria Langan-Riekhof Headshot"
+                className="w-8 h-8 rounded-full object-cover"
+              />
+            </a>
+            <div className="min-w-0 flex-1">
+              <p className="text-[14px] text-primary font-medium">Maria Langan-Riekhof</p>
+              <p className="text-[13px] text-primary/60">Distinguished Visiting Fellow, Hoover Institution</p>
+            </div>
+          </div>
+          <div className="flex items-center gap-2">
+            <a
+              href="https://www.hoover.org/profiles/herbert-lin"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-shrink-0 rounded-full ring-2 ring-transparent hover:ring-primary/40 transition-all"
+            >
+              <img
+                src="/headshot_herb.jpeg"
+                alt="Herb Lin Headshot"
+                className="w-8 h-8 rounded-full object-cover"
+              />
+            </a>
+            <div className="min-w-0 flex-1">
+              <p className="text-[14px] text-primary font-medium">Herb Lin</p>
+              <p className="text-[13px] text-primary/60">Research Fellow, Hoover Institution</p>
+            </div>
           </div>
         </div>
       </div>

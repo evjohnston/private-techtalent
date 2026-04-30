@@ -83,7 +83,7 @@ export default function Home() {
         />
       )}
       
-      <main className={`flex-1 flex items-center justify-center p-8 ${!isFullscreen ? 'ml-72' : ''}`}>
+      <main className={`flex-1 flex items-center justify-center p-8 ${!isFullscreen ? 'ml-[max(20vw,220px)]' : ''}`}>
         {currentSlideData && (
           <SlideViewer
             slide={currentSlideData}

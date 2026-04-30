@@ -7,10 +7,10 @@ const TOTAL_SLIDES = 10; // Change this to match your number of slides
 // Define your sections here
 const sections = [
   { title: 'Introduction', startSlide: 1, level: 0 },
-  { title: 'Background', startSlide: 2, level: 1 },
+  { title: 'Background', startSlide: 3, level: 1 },
   { title: 'Main Content', startSlide: 4, level: 0 },
-  { title: 'Topic A', startSlide: 4, level: 1 },
-  { title: 'Subtopic A1', startSlide: 5, level: 2 },
+  { title: 'Topic A', startSlide: 5, level: 1 },
+  { title: 'Subtopic A1', startSlide: 6, level: 2 },
   { title: 'Topic B', startSlide: 7, level: 1 },
   { title: 'Conclusion', startSlide: 9, level: 0 },
 ];
